@@ -153,3 +153,21 @@ button{
     border-color: #fceabb;
     background-image: linear-gradient(#fceabb,#f8b500);
 }
+.sixth-section{
+    display: flex;
+    margin-top: 100px;
+}
+.inner-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:1050px;
+    margin-left: 220px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(172, 168, 168);
+}
+.audience{
+        width: 300px;
+        padding:10px;
+        margin-left: 20px;
+}
