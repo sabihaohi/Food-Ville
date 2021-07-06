@@ -164,7 +164,12 @@ button{
     margin: 5px;
     border-color: #fceabb;
     background-image: linear-gradient(#fceabb,#f8b500);
-    margin-left: 65px;
+    width:100px;
+    margin-left: 10px;
+}
+button a{
+    text-decoration: none;
+    color: black;
 }
 .sixth-section{
     display: flex;
