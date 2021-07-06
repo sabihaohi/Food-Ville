@@ -173,14 +173,15 @@ button a{
 }
 .sixth-section{
     display: flex;
+    justify-content: center;
     margin-top: 100px;
+
 }
 .inner-section{
     display: flex;
     justify-content: center;
     text-align: center;
     width:1050px;
-    margin:auto;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(172, 168, 168);
 }
