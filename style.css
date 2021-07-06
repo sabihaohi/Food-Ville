@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body{
     background-color: #fceabb;
     font-family: 'Montserrat', sans-serif;
     margin:0;
 }
+.logo{
+    margin-right: auto;
+    font-size: 20px;
+  padding: 20px;
+  font-family: 'Pacifico', cursive;
+  font-weight: bolder;
+
+}
+.logo span{
+    color: #f8b500;
+}
 .navbar{
+    display: flex;
+    justify-content: flex-end;
     background-color: #965827;
     list-style-type: none;
     text-align: right;
     margin-top: -5px;
 }
 .nav-item{
-  display: inline-block;
   font-size: 20px;
   padding: 20px;
 }
@@ -19,7 +32,7 @@ body{
     color:black;
     font-size: 20px;
 }
-.navbar li:hover{
+.nav-item:hover{
     background-color: #f8b500;
     font-weight:20px;
     border-radius: 5px;
@@ -132,8 +145,7 @@ h1{
 
 }
 .from h2{
-   
-    margin-left: -80px;
+   margin-left: -80px;
 }
 .input{
     padding:10px;
