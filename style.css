@@ -180,7 +180,7 @@ button a{
     justify-content: center;
     text-align: center;
     width:1050px;
-    margin-left: 220px;
+    margin:auto;
     border-radius: 20px;
     box-shadow: 5px 5px 10px rgb(172, 168, 168);
 }
