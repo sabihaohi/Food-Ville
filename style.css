@@ -248,6 +248,7 @@ button a{
     .content h2{
         margin-top: 50px;
         margin-left: 0;
+        font-size: 18px;
     }
     .fourth-section{
         display: flex;
