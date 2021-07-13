@@ -204,3 +204,94 @@ button a{
 .ville{
     color: gray;
 }
+
+
+/* media query */
+@media (max-width:688px) {
+
+    .navbar{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0px;
+        
+        
+    }
+    .nav-item{
+        text-align: center;
+
+    }
+    .first-section{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 90%;
+        padding:7px;
+    }
+    .content a,
+    .content p,
+    h1{
+        margin-left: 0;
+
+    }
+    .content p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .image{
+        width: 90%;
+    }
+    .second-section{
+        flex-direction: column;
+    }
+    .content h2{
+        margin-top: 50px;
+        margin-left: 0;
+    }
+    .fourth-section{
+        display: flex;
+        justify-content: center;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-right: 0px;
+        padding-right: 0;
+        padding-top: 0px;
+        padding-left: 0;
+        margin-left: 0;
+        width: 90%;
+       
+    }
+    .fifth-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .animation{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .animation img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .from{
+        text-align: center;
+    }
+    .from h2{
+        margin-left: 2px;
+    }
+    .inner-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .audience{
+        padding: 0;
+    }
+    .recipe{
+        padding: 0;
+    }
+}
