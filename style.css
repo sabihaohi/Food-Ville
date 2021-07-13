@@ -287,6 +287,7 @@ button a{
     .inner-section{
         flex-direction: column;
         width: 100%;
+        align-items: center;
     }
     .audience{
         padding: 0;
